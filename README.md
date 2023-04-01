@@ -4,15 +4,22 @@ This is a sample imdb web app with basic functionality which includes:
     Search Title (input Field) : where user can enter any web series or movie title. As user types, you need to use make an API call and populate and update the title list beneath it.
     Title List: The list is linked with API response, where you need to render title’s image, name, genre, and year. Also, clicking on this list-item, will take user to synopses page.
     History button: Keep this button as part of the top navigation and link it with the History Page. 
+    <img width="1788" alt="SearchPage" src="https://user-images.githubusercontent.com/46671484/229305585-c46fba28-9e5f-4756-a433-a4406e60187b.png">
+
 
 2. Synopses Page
     Render the page with following details
     Title image with name 
     Genre and year [these four details are part of the first API which needs to be maintained in states]
     Synopses : Use the API to fetch synopsis of the current title ID.
+    <img width="1785" alt="SynopsesPage" src="https://user-images.githubusercontent.com/46671484/229305609-460805ce-dcec-42ad-8c24-1554d0eb8567.png">
+
 
 3. History Page
     Here you need to maintain the list of all the titles which user clicked to check its synopses and link them to synopses pages
+    <img width="1788" alt="HistoryPage" src="https://user-images.githubusercontent.com/46671484/229305624-2c3a6dc6-acba-4f79-98af-d80a2482dfa2.png">
+
+    
 
 # Getting Started with Create React App
 
