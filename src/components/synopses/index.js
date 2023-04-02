@@ -9,6 +9,7 @@ import {
     CContainer
 } from '@coreui/react'
 import { useLocation } from "react-router-dom";
+import KEY from '../../constant';
 
 
 
@@ -23,7 +24,7 @@ const Synopses = (props) => {
     async function getData() {
         const method = "GET"
         let headers = {
-            'X-RapidAPI-Key': 'ZlwRwvmaLXmshZL92nWYO5mP5HVdp1HdeREjsnZF4hOiIu9xJ8',
+            'X-RapidAPI-Key': KEY,
             'X-RapidAPI-Host': 'imdb8.p.rapidapi.com'
         }
         const response = await axios.request({
